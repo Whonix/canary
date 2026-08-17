@@ -1,5 +1,5 @@
 untrusted comment: verify with keyname.pub
-RWQ6KRormNEETt8l78UzCLvt9jDVa0sbnqL7PinUrGWPYaKdKeS1mV8vmCa7N8sOQ9DbQuJB/BoE6GCxB/hd7hxymLEX7KZztQs=
+RWQ6KRormNEETr7WxuzXV6dMCfS37WkDHfdqXCxSegbvXHDvSrSs/cwQJkC8kHg5SATTaHs3X5WidPl/fG+GBpJZy4c6n5UO1AU=
 Canary for Kicksecure / Whonix project
 ----
 Statements
@@ -46,14 +46,14 @@ Proof of freshness
 -------------------
 
 $ date -R -u
-Fri, 17 Jul 2026 08:31:26 +0000
+Mon, 17 Aug 2026 15:06:26 +0000
 
 $ rsstail -1 -n5 -u https://www.spiegel.de/international/index.rss
+Title: Moaning for the Mainland: How Taiwan Satisfies China's Lust for Pornography
 Title: The New Axis of Evil: DER SPIEGEL Investigation Reveals Deep Military Cooperation between Russia and China
 Title: New Information in the Nazi Database: What You Need to Know About the SS
 Title: 250 Years: American Democracy Has Survived 250 Years, But Can It Survive Trump?
 Title: In Trump's Colony: Does the US Really Hold the Reins in Venezuela?
-Title: The Minab Attack: Did the United States Commit a War Crime in Iran?
 
 $ rsstail -1 -n5 -u http://rss.cnn.com/rss/edition_world.rss
 Title: Markets digest bank earnings after recent turmoil
@@ -63,19 +63,20 @@ Title: Analysis: Fox News is about to enter the true No Spin Zone
 Title: Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color 
 
 $ rsstail -1 -n5 -u https://feeds.bbci.co.uk/news/world/rss.xml
-Title: US launches new strikes as Iran says civilian infrastructure hit
-Title: Trump alleges 'shocking vulnerabilities' in US election security ahead of midterms
-Title: More than 500 Rohingya vanished at sea - what happened?
-Title: Japan relaxes royal succession rules - but ban on female emperors remains
-Title: Philippines condemns monkey video on Chinese media as racist
+Title: Trump threatens to bomb Oman if it 'gets in the way' over Iran issue
+Title: Trump says US to reduce military drills with South Korea after it stayed out of Iran war
+Title: Russia and Ukraine trade more deadly strikes
+Title: Aid shortages and fears of starvation as Indonesia reels from deadly earthquake
+Title: US hiker dies after being struck by lightning on Mount Etna
 
 $ rsstail -1 -n5 -u https://www.theguardian.com/world/rss
-Title: Uganda calls for travel restrictions to be lifted after last Ebola patient discharged
-Title: Moroccan intelligence insider reveals widespread use of Pegasus hacking software
-Title: How global heating supercharged floods in West Africa, displacing thousands
-Title: New US Ebola patient arrives in Germany for treatment
+Title: Ebola outbreak in Democratic Republic of the Congo now deadliest in country’s history
+Title: Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered
+Title: Moroccan police arrest more than 100 people attempting to enter Ceuta
+Title: American missionary kidnapped in Niger freed after nine months
+Title: DRC’s fast-growing Ebola outbreak spreads to sixth province
 
 $ curl --silent --fail --proto =https --tlsv1.3 https://blockchain.info/q/getblockcount
-958384
+962903
 $ date -u +%s
-1784277095
+1786979194
